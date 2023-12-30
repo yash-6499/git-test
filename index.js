@@ -8,3 +8,14 @@ function add(){
 
 let sum = add(4,5,6,7)
 console.log(sum)
+
+function add(){
+    let mul = 0
+    for(let i = 0; i < arguments.length; i++){
+        mul = mul * arguments[i]
+    }
+    return mul
+}
+
+
+
